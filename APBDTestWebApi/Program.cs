@@ -1,7 +1,7 @@
-using TemplateWebApi.Repositories;
-using TemplateWebApi.Repositories.Interfaces;
+using APBDTestWebApi.Repositories;
+using APBDTestWebApi.Repositories.Interfaces;
 
-namespace TemplateWebApi;
+namespace APBDTestWebApi;
 
 
 public class Program
@@ -13,7 +13,8 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
-        builder.Services.AddScoped<ISampleRepository, SampleRepository>();
+        builder.Services.AddScoped<ITeamMemberRepository, TeamMemberRepository>();
+        builder.Services.AddScoped<ITaskRepository, TaskRepository>();
         
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();

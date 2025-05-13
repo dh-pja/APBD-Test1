@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateWebApi", "TemplateWebApi\TemplateWebApi.csproj", "{879A6112-792A-463E-A6CE-80E612E9E5AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBDTestWebApi", "APBDTestWebApi\APBDTestWebApi.csproj", "{879A6112-792A-463E-A6CE-80E612E9E5AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
