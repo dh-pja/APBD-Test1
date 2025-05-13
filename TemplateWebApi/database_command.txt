@@ -1,0 +1,9 @@
+docker volume create mssql_data_volume
+docker run \                                 
+   -e "ACCEPT_EULA=Y" \
+   -e "MSSQL_SA_PASSWORD=PASSword123" \
+   -p 1433:1433 \
+   -v mssql_data_volume:/var/opt/mssql \
+   --name mssql_server_container_persistent \
+   -d \
+   mcr.microsoft.com/mssql/server:latest
